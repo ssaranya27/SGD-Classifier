@@ -8,10 +8,15 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Algorithm
 1.Load Dataset: Load the Iris dataset from the sklearn.datasets library.
+
 2.Prepare Data: Create a pandas DataFrame from the dataset, assigning feature columns and a target column.
+
 3.Split Data: Split the DataFrame into features (X) and target labels (y), then divide the data into training and testing sets.
+
 4.Train Model: Initialize the SGDClassifier with default parameters and train it on the training set.
+
 5.Evaluate Model: Make predictions on the test set, calculate accuracy, and generate the confusion matrix to evaluate model performance.
+
 ## Program:
 ```
 Program to implement the prediction of iris species using SGD Classifier.
